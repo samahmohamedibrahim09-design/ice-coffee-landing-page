@@ -1,0 +1,101 @@
+.body{
+  margin: 0;
+  display: flex;
+  background-color: #fdfaf7;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container{
+  background-color: white;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0 0 20px;
+  margin-top: 0px;
+  overflow: hidden;
+  
+  width: 80%;
+}
+.p-info{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+.p-info h1{
+  font-size: 26px;
+  color: #3E2723;
+  margin-bottom: 10px;
+}
+.p-info p{
+  font-size: 16px;
+  color: #5e5046;
+  margin-bottom: 20px;
+}
+.price{
+  font-size: 20px;
+  font-weight: bold;
+  color: #7B3f00;
+  margin-bottom: 20px;
+}
+flavors{
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+.order-btn{
+  background-color: #3E2723;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  margin-top: 50px;
+}
+.order-btn:hover{
+  background-color: #5d4037;
+  transform: scale(1.05);
+}
+.tagline{
+  margin-top: 15px;
+  font-size: 14px;
+  color: #888;
+  font-style: italic;
+}
+.social-icons {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #4b2c20;
+  justify-content: flex-start;
+}
+
+.social-icons i {
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons i:hover {
+  transform: scale(1.2);
+  color: #603e2e;
+}
+
+.p-image{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.p-image img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 400x;
+  transition: transform 0.3s ease;
+
+}
+.p-image img:hover{
+  transform: scale(1.05);
+}
